@@ -1,0 +1,68 @@
+/* App.css */
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .temperature-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .temperature-display.iceblue {
+    background-color: #97d6f6;
+  }
+  
+  .temperature-display.green {
+    background-color: #0cf95b;
+  }
+  
+  .temperature-display.red {
+    background-color: #f61414;
+  }
+  
+  .temperature-circle {
+    font-size: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    font-size: 1.5rem;
+    background-color: #ccc;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #888;
+  }
+  
