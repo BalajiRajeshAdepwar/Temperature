@@ -1,4 +1,5 @@
-// App.js
+
+
 import React, { useState } from "react";
 import "./temp.css";
 
@@ -15,7 +16,7 @@ const Temp = () => {
 
   let bgColor = "green";
   if (temperature < 0) bgColor = "iceblue";
-  else if (temperature > 50) bgColor = "red";
+  else if (temperature > 15) bgColor = "red";
 
   return (
     <div className="app-container">
