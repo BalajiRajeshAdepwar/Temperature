@@ -8,7 +8,7 @@ const cartItems = [
     },
     {
       id: 'recB6qcHPxb62YJ75',
-      title: 'google pixel',
+      title: 'Google pixel',
       price: '499.99',
       img: 'https://images2.imgbox.com/fb/3d/O4TPmhlt_o.png',
       amount: 1,
